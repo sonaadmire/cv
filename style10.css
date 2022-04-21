@@ -1,0 +1,93 @@
+*{
+    margin: 0; padding: 0;
+}
+body{
+    background-color: #eee;
+    font-family: 'roboto',sans-serif;
+}
+.container{
+    max-width: 1000px;
+    background-color: #e4f9f5;
+    margin: 0 auto;
+    padding: 20px;  
+}
+.profileimage{
+    height: 200px;
+    width: 100;
+    border: 3px solid white;
+    border-radius: 90%;
+    float: left;
+}
+.header-bio{
+    float: left;
+    padding: 30px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #11999e;
+}
+.header-contact{
+    float: right;
+    padding: 30px;
+}
+.header-contact a{
+    direction: none;
+    color: teal;
+    font-weight: bold;
+}
+.header-contact a:hover{
+    text-decoration: underline;
+    color:tomato;
+
+}
+.div-clear{
+    clear:both;
+}
+hr{
+    border: solid black 3px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+#personal-section{
+
+}
+.left-div{
+width: 30%;
+float: left;
+}
+.right-div{
+    width: 70%;
+    float: right;
+    
+
+}
+.content{
+margin-bottom: 30px;
+}
+.common-hr{
+    border: solid magenta 2px ;
+    border-bottom: none;
+    width:100%;
+    margin: 20px auto;
+}
+.common-hr1{
+    border: solid  blue 0px ;
+    border-bottom: none;
+    width:100%;
+    margin: 20px auto;
+}
+#work-section{
+
+}
+.footer-container{
+    background-color: hotpink  ;
+    text-align: center;
+    margin-left: 240px;
+    margin-right: 240px;
+}
+.footer-container p{
+    color: wheat;
+    text-decoration: none;
+    margin: 10px;
+
+}
